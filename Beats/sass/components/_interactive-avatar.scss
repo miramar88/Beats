@@ -1,0 +1,23 @@
+.interactive-avatar {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  
+}
+
+.interactive-avatar__link {
+  display: block;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  transition-property: border;
+  transition-duration: 400ms;
+
+  &:hover {
+    border:  4px solid $primaryColor;
+  }
+}
+
+.interactive-avatar__link--active {
+  border:  4px solid $primaryColor;
+}

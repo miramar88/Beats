@@ -1,0 +1,44 @@
+.reviews__display {
+  margin-bottom: 15px;
+  padding: 42px 0;
+  padding-left: 42px;
+  background-color: #F8FAF9;
+  display: flex;
+  align-items: center;
+}
+
+.reviews__switch {
+  display: flex;
+  justify-content: center;
+}
+
+.rewievs__switch-item {
+  margin-right: 8px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.reviews__content {
+  flex: 1;
+  margin-left: 39px;
+}
+
+
+.reviews__photo {
+  width: 253px;
+  height: 264px;
+}
+
+.reviews__subtitle {
+  margin-bottom: 27px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.reviews__name {
+  margin-top: 38px;
+  font-size: 18px;
+  font-weight: 700;
+}

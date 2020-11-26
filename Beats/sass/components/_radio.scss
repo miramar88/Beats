@@ -1,0 +1,51 @@
+.radio {
+  display: flex;
+  cursor: pointer;
+}
+
+.radio--checkbox>.radio__visible {
+  border-radius: 4px;
+
+  &:before {
+    background: url('../images/ckeckmark.svg') center center no-repeat;
+  }
+}
+
+.radio--checkbox>.radio__elem {
+  display: none;
+  
+  &:checked ~ .radio__visible:before {
+    display: block;
+  }
+}
+
+.radio__elem {
+  display: none;
+  
+  &:checked ~ .radio__visible:before {
+    display: block;
+  }
+}
+
+.radio__visible {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+}
+

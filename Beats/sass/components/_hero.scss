@@ -1,0 +1,32 @@
+.hero {
+  background: url('../images/hero/hero.png') 80% center no-repeat;
+  background-color: $lightBgColor;
+  height: 100vh;
+  color: $black;
+}
+
+.hero__container {
+  padding-top: 24px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hero__title {
+  max-width: 400px;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.hero__description {
+  max-width: 330px;
+  margin-bottom: 36px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 21px;
+  line-height: 1.2;
+}

@@ -1,0 +1,24 @@
+.section {
+  height: 100vh;
+  min-height: 750px;
+  padding-top: 105px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.section__subtitle {
+  max-width: 590px;
+  margin: auto;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.button {
+  padding: 18px 41px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.button--red {
+  color: #fff;
+  background-color: $primaryColor;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $primaryColor;
+    background-color: #fff;
+    border: 1px solid $primaryColor;
+  }
+
+}
+
+.button--transparent {
+  color: #fff;
+  background-color: transparent;
+
+  &:hover {
+    color: $primaryColor;
+  }
+}
